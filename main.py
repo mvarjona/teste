@@ -116,7 +116,7 @@ def Conexao(Navegador):
     Navegador.implicitly_wait(1)
 
     Navegador.find_element(by = By.NAME, value="cpf").send_keys('27759535813')
-    Navegador.find_element(by = By.XPATH, value='//*[@id="password"]').send_keys('Valzinha2024')
+    Navegador.find_element(by = By.XPATH, value='//*[@id="password"]').send_keys('Arjona13@#$')
     Navegador.find_element(by=By.XPATH, value='//*[@id="submit"]').click()
     Navegador.implicitly_wait(10)
     time.sleep(45)
